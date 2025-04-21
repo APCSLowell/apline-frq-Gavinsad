@@ -12,7 +12,7 @@ myC=c;
 return (double)(-1*(myA/myB));
   }
   public boolean isOnLine(int x,int y){
-if( ((myA*x) + (myB+y) + myC)==0){return true;}
+if( ((myA*x) + (myB*y) + myC)==0){return true;}
     return false;
 
 
